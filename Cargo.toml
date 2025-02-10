@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 build_html = "2.6.0"
+clap = { version = "4.5.28", features = ["derive"] }
 reqwest = "0.12.12"
 rocket = { version = "0.5.1", features = ["json"] }
 serde = { version = "1.0.217", features = ["derive"] }
